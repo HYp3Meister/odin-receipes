@@ -60,6 +60,12 @@ header {
     border-radius: 5%;
 }
 
+.center-fit.pizza {
+    height: auto;
+    width: 30%;
+    border-radius: 5%;
+}
+
 .hero-text {
     width: 50%;
     color: #e86400;
