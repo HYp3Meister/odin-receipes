@@ -13,15 +13,25 @@ html {
 }
 
 header {
+    border-bottom: 0.5px solid #e86400;
     padding: 10px;
     text-align: center;
-    background-image: url("images/pexels-pixabay-531754.jpg");
+    background-image: black;
     color: #e86400;
     font-size: 20px;
     height: 4rem;
     justify-content: center;
     align-items: center;
     display: flex;
+    gap: 8px;
+
+}
+
+.header-icon {
+    height: 2rem;
+    color: #e86400;
+    background-color: #e86400;
+    border-radius: 2px;
 }
 
 a {
@@ -32,6 +42,7 @@ a {
     text-decoration: none;
 }
 
+h1,
 h2 {
     color: whitesmoke;
 }
@@ -42,6 +53,10 @@ ul {
     margin: 0;
     padding: 0;
     gap: 8px;
+}
+
+p {
+    color: #e86400;
 }
 
 /* Main Page Hero card CSS */
@@ -89,6 +104,17 @@ ul {
     justify-content: center;
 }
 
+.footer,
+p {
+    color: white;
+}
+
 .random-info {
     color: white;
+}
+
+/* Recipes CSS */
+#receipes,
+li {
+    color: #e86400;
 }
